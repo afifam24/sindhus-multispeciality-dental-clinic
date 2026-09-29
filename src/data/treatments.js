@@ -53,7 +53,7 @@ export const treatments = [
     descriptionTa: "குழந்தைகளின் வாய் ஆரோக்கியம் மற்றும் பல் தேவைகளை ஆதரிக்கும் சிறப்பான பல் பராமரிப்பு.",
     featured: true,
     icon: "Baby",
-    image: "/src/assets/images/child_care_dentistry.jpg"
+    image: "/images/child_care_dentistry.jpg"
   },
   {
     id: "general-dental-treatments",
@@ -114,7 +114,7 @@ export const treatments = [
     descriptionTa: "பற்களின் சமச்சீரான வரிசையை மேம்படுத்தி அழகிய புன்னகையை உருவாக்கும் சிகிச்சை.",
     featured: false,
     icon: "CheckCircle2",
-    image: "/src/assets/images/teeth_straightening.jpg"
+    image: "/images/teeth_straightening.jpg"
   },
   {
     id: "gum-surgery",

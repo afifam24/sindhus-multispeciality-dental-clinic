@@ -24,6 +24,10 @@ import FAQItem from '../components/FAQItem';
 import ClinicStatus from '../components/ClinicStatus';
 import MapSection from '../components/MapSection';
 import BookingForm from '../components/BookingForm';
+import heroDentalCareImg from '../assets/images/hero_dental_care.jpg';
+import clinicInteriorImg from '../assets/images/clinic_interior.jpg';
+import childCareDentistryImg from '../assets/images/child_care_dentistry.jpg';
+import teethStraighteningImg from '../assets/images/teeth_straightening.jpg';
 import './Home.css';
 
 export default function Home() {
@@ -109,7 +113,7 @@ export default function Home() {
             <div className="hero-visual-column">
               <div className="hero-image-card">
                 <img 
-                  src="/src/assets/images/hero_dental_care.jpg" 
+                  src={heroDentalCareImg} 
                   alt="Modern patient-focused dental care at Sindhu's Multispeciality Dental Clinic" 
                   className="hero-main-img"
                   fetchPriority="high"
@@ -180,7 +184,7 @@ export default function Home() {
             <div className="about-intro-images">
               <div className="intro-image-frame frame-1">
                 <img 
-                  src="/src/assets/images/clinic_interior.jpg" 
+                  src={clinicInteriorImg} 
                   alt="Sindhu's Multispeciality Dental Clinic hygienic interior and consultation room" 
                   className="intro-photo"
                   loading="lazy"
@@ -191,7 +195,7 @@ export default function Home() {
               </div>
               <div className="intro-image-frame frame-2">
                 <img 
-                  src="/src/assets/images/child_care_dentistry.jpg" 
+                  src={childCareDentistryImg} 
                   alt="Friendly child dental care consultation" 
                   className="intro-photo"
                   loading="lazy"
@@ -263,7 +267,7 @@ export default function Home() {
 
             <div className="featured-banner-card">
               <img 
-                src="/src/assets/images/teeth_straightening.jpg" 
+                src={teethStraighteningImg} 
                 alt="Orthodontic and dental smile care in Tiruppur" 
                 className="banner-card-img"
                 loading="lazy"
@@ -311,7 +315,7 @@ export default function Home() {
           <div className="spotlight-card">
             <div className="spotlight-bg-img-wrap">
               <img 
-                src="/src/assets/images/clinic_interior.jpg" 
+                src={clinicInteriorImg} 
                 alt="Sindhu's Multispeciality Dental Clinic waiting area and consultation space" 
                 className="spotlight-bg-img"
                 loading="lazy"

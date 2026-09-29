@@ -17,6 +17,8 @@ import { useLanguage } from '../context/LanguageContext';
 import { clinicData } from '../data/clinicData';
 import DoctorCard from '../components/DoctorCard';
 import RatingBadge from '../components/RatingBadge';
+import clinicInteriorImg from '../assets/images/clinic_interior.jpg';
+import childCareDentistryImg from '../assets/images/child_care_dentistry.jpg';
 import './About.css';
 
 export default function About() {
@@ -145,7 +147,7 @@ export default function About() {
             <div className="story-visual-column">
               <div className="story-image-card">
                 <img 
-                  src="/src/assets/images/clinic_interior.jpg" 
+                  src={clinicInteriorImg} 
                   alt="Sindhu's Multispeciality Dental Clinic modern interior" 
                   className="story-main-photo"
                   loading="lazy"
@@ -224,7 +226,7 @@ export default function About() {
 
             <div className="exp-visual-wrap">
               <img 
-                src="/src/assets/images/child_care_dentistry.jpg" 
+                src={childCareDentistryImg} 
                 alt="Gentle dentist patient interaction at Sindhu's Multispeciality Dental Clinic" 
                 className="exp-image"
                 loading="lazy"
