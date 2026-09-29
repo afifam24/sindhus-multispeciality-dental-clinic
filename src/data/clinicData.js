@@ -1,0 +1,40 @@
+export const clinicData = {
+  name: "Sindhu's Multispeciality Dental Clinic",
+  shortName: "Sindhu's Multispeciality Dental Clinic",
+  nameTa: "சிந்துஸ் மல்டிஸ்பெஷாலிட்டி பல் மருத்துவமனை",
+  doctor: "Dr. Selvam Palani",
+  doctorTa: "டாக்டர் செல்வம் பழனி",
+  qualification: "BDS",
+  role: "Dental Surgeon",
+  roleTa: "பல் அறுவை சிகிச்சை நிபுணர்",
+  established: "January 2022",
+  establishedTa: "ஜனவரி 2022",
+  rating: 4.9,
+  ratingsCount: 39,
+  phone: "63839 66001",
+  phoneFormatted: "+91 63839 66001",
+  phoneRaw: "6383966001",
+  phoneTel: "+916383966001",
+  whatsappNumber: "916383966001",
+  email: "drsindhudental@gmail.com",
+  address: {
+    line1: "4/52, VV Giri Complex",
+    line2: "Palladam Main Road, Near Tamil Nadu Theater",
+    city: "Tiruppur",
+    state: "Tamil Nadu",
+    pincode: "641605",
+    full: "4/52, VV Giri Complex, Palladam Main Road, Near Tamil Nadu Theater, Tiruppur, Tamil Nadu – 641605",
+    fullTa: "4/52, விவி கிரி காம்ப்ளக்ஸ், பல்லடம் மெயின் ரோடு, தமிழ்நாடு தியேட்டர் அருகில், திருப்பூர், தமிழ்நாடு – 641605"
+  },
+  schedule: [
+    { day: "Monday", dayTa: "திங்கள்", hours: "9:30 AM – 2:00 PM, 5:00 PM – 9:30 PM", hoursTa: "காலை 9:30 – மதியம் 2:00, மாலை 5:00 – இரவு 9:30" },
+    { day: "Tuesday", dayTa: "செவ்வாய்", hours: "9:30 AM – 2:00 PM, 5:00 PM – 9:30 PM", hoursTa: "காலை 9:30 – மதியம் 2:00, மாலை 5:00 – இரவு 9:30" },
+    { day: "Wednesday", dayTa: "புதன்", hours: "9:30 AM – 2:00 PM, 5:00 PM – 9:30 PM", hoursTa: "காலை 9:30 – மதியம் 2:00, மாலை 5:00 – இரவு 9:30" },
+    { day: "Thursday", dayTa: "வியாழன்", hours: "9:30 AM – 2:00 PM, 5:00 PM – 9:30 PM", hoursTa: "காலை 9:30 – மதியம் 2:00, மாலை 5:00 – இரவு 9:30" },
+    { day: "Friday", dayTa: "வெள்ளி", hours: "9:30 AM – 2:00 PM, 5:00 PM – 9:30 PM", hoursTa: "காலை 9:30 – மதியம் 2:00, மாலை 5:00 – இரவு 9:30" },
+    { day: "Saturday", dayTa: "சனி", hours: "9:30 AM – 2:00 PM, 5:00 PM – 9:30 PM", hoursTa: "காலை 9:30 – மதியம் 2:00, மாலை 5:00 – இரவு 9:30" },
+    { day: "Sunday", dayTa: "ஞாயிறு", hours: "10:00 AM – 2:00 PM (Evening: Appointment Only)", hoursTa: "காலை 10:00 – மதியம் 2:00 (மாலை: முன்பதிவு மட்டும்)" }
+  ],
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Sindhu%27s+Multispeciality+Dental+Clinic+VV+Giri+Complex+Palladam+Main+Road+Tiruppur",
+  directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=4%2F52%2C+VV+Giri+Complex%2C+Palladam+Main+Road%2C+Near+Tamil+Nadu+Theater%2C+Tiruppur%2C+Tamil+Nadu+641605"
+};
